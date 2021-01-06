@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: poppins;
+}
+h1, h2, h3, h5, h6{
+    
+    font-weight: bold;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
+.section-title{
+    font-size: 3rem;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.container-fluid{
+    padding: 5% 10%;
+}
+.highlight{
+    color:#D89200 ;
+}
+
+.btn-text{
+    font-family: poppins;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: .5;
+    padding: 4% 10%;
+}
+.title{
+    padding-bottom: 4%;
+}
+
+#title{
+    background-image: url("../images/title-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:10%;
+    
+}
+#title .container-fluid{
+    padding: 3% 10%;
+    
+}
+.logo{
+    width: 50%;
+    transform: rotate(-20deg);
+
+}
+text-area{
+    padding-bottom:5% 0 13% 0;
+}
+.title-text{
+    font-size: 4rem;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+h1.title-text.highlight {
+    padding-bottom: 35px;
+}
+.sub-title {
+    margin:auto;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.book-btn{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+ul li{
+    padding: 10px;
+}
+ul a{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#service{
+    
+    
+}
+
+.service-image img{
+    width: 100%;
+}
+.service-text{
+    padding: 5% 7%;
+    
+}
+.service-text p{
+    padding: 5% 0%;
+    color: rgb(109, 104, 104);
+
+}
+.service-text-box{
+    border: 1px solid gray;
+    background-image: linear-gradient(90deg, rgba(252,252,252,0) 40%, rgba(216, 148, 0, 0.342) 100%);
+}
+/* .price-box{
+    text-align: center;
+    border: 1px solid gray;
+    margin: 1%;
+    width: 200px
+  
+}
+
+.btn-textp{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: auto ;
+    text-align: center;
+    color: white;
+}
+
+
+ .card-body{
+
+    list-style-type: none;
+    text-align: left;
+    
+} */
+.disable{
+    color: rgb(207, 207, 207);
+}
+  
+
+
+@media (max-width:740px){
+ body{
+     text-align: center;
+ }   
+ .sub-title {
+    text-align: center;
+    padding-bottom:10%;
+    
+}
+}
